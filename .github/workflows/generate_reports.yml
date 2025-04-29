@@ -1,8 +1,8 @@
 name: Generate NCI resources report
 on: [push]
-
 jobs:
-  runcode:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Run  
